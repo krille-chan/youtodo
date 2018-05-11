@@ -1,0 +1,15 @@
+{
+    "name": "youtodo.christianpauly",
+    "description": "Minimalistic Todo app for Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "YouTodo",
+    "hooks": {
+        "youtodo": {
+            "apparmor": "youtodo.apparmor",
+            "desktop":  "youtodo.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Christian Pauly <christian-pauly@posteo.de>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
