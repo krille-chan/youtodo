@@ -12,12 +12,14 @@ Page {
     Label {
         id: label1
         anchors.centerIn: parent
+        font.pixelSize: 52
         text: i18n.tr('YouTodo by Christian Pauly')
     }
     Label {
         anchors.top: label1.bottom
         anchors.horizontalCenter: label1.horizontalCenter
-        text: i18n.tr('Email: christian-pauly@posteo.de')
+        text: i18n.tr('Email:') + ' <a href="mailto: christian-pauly@posteo.de">christian-pauly@posteo.de</a>'
+        onLinkActivated: Qt.openUrlExternally(link)
     }
 
 }

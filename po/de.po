@@ -41,9 +41,9 @@ msgstr "Nach oben wischen, um eine Aufgabe hinzuzufügen ..."
 msgid "YouTodo by Christian Pauly"
 msgstr "YouTodo von Christian Pauly"
 
-#: ../qml/pages/Info.qml:20
-msgid "Email: christian-pauly@posteo.de"
-msgstr ""
+#: ../qml/pages/Info.qml:21
+msgid "Email:"
+msgstr "Courriel"
 
 #: ../qml/pages/AddTask.qml:13
 msgid "Add Task"

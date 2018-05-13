@@ -41,9 +41,9 @@ msgstr "Faites glisser votre doigt à partir du bord inférieur pour saisir une 
 msgid "YouTodo by Christian Pauly"
 msgstr "YouTodo par Christian Pauly"
 
-#: ../qml/pages/Info.qml:20
-msgid "Email: christian-pauly@posteo.de"
-msgstr "Courriel : christian-pauly@posteo.de"
+#: ../qml/pages/Info.qml:21
+msgid "Email:"
+msgstr "Courriel"
 
 #: ../qml/pages/AddTask.qml:13
 msgid "Add Task"

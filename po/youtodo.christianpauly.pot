@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: youtodo.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-13 13:04+0000\n"
+"POT-Creation-Date: 2018-05-13 13:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,12 +33,12 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: ../qml/pages/Info.qml:15
+#: ../qml/pages/Info.qml:16
 msgid "YouTodo by Christian Pauly"
 msgstr ""
 
-#: ../qml/pages/Info.qml:20
-msgid "Email: christian-pauly@posteo.de"
+#: ../qml/pages/Info.qml:21
+msgid "Email:"
 msgstr ""
 
 #: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
