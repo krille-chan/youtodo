@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: youtodo.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-13 13:02+0000\n"
+"POT-Creation-Date: 2018-05-13 13:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/pages/AddTask.qml:41
+#: ../qml/pages/AddTask.qml:40
 msgid "Add Task"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:54
+#: ../qml/pages/AddTask.qml:53
 msgid "What to do?"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:76
+#: ../qml/pages/AddTask.qml:75
 msgid "Task already exists!"
 msgstr ""
 
@@ -53,6 +53,6 @@ msgstr ""
 msgid "Add task"
 msgstr ""
 
-#: ../qml/pages/List.qml:91
+#: ../qml/pages/List.qml:90
 msgid "Swipe from the bottom to enter some tasks ..."
 msgstr ""

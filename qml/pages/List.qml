@@ -81,7 +81,6 @@ Page {
         contentItem: Column {
             id: taskList
             width: root.width
-            height: root.height
         }
     }
 
