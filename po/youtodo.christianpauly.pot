@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: youtodo.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-11 14:54+0000\n"
+"POT-Creation-Date: 2018-05-13 12:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
-msgid "YouTodo"
+#: ../qml/pages/AddTask.qml:13
+msgid "Add Task"
 msgstr ""
 
-#: ../qml/pages/List.qml:47 ../qml/pages/Info.qml:9
+#: ../qml/pages/AddTask.qml:51
+msgid "What to do?"
+msgstr ""
+
+#: ../qml/pages/AddTask.qml:72
+msgid "Task already exists!"
+msgstr ""
+
+#: ../qml/pages/Info.qml:9 ../qml/pages/List.qml:45
 msgid "Info"
-msgstr ""
-
-#: ../qml/pages/List.qml:54
-msgid "Clear"
-msgstr ""
-
-#: ../qml/pages/List.qml:66
-msgid "Add task"
-msgstr ""
-
-#: ../qml/pages/List.qml:93
-msgid "Swipe from the bottom to enter some tasks ..."
 msgstr ""
 
 #: ../qml/pages/Info.qml:15
@@ -45,14 +41,18 @@ msgstr ""
 msgid "Email: christian-pauly@posteo.de"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:13
-msgid "Add Task"
+#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
+msgid "YouTodo"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:53
-msgid "What to do?"
+#: ../qml/pages/List.qml:52
+msgid "Clear"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:74
-msgid "Task already exists!"
+#: ../qml/pages/List.qml:64
+msgid "Add task"
+msgstr ""
+
+#: ../qml/pages/List.qml:91
+msgid "Swipe from the bottom to enter some tasks ..."
 msgstr ""

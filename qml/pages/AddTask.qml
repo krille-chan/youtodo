@@ -11,9 +11,7 @@ Page {
     header: PageHeader {
         id: header
         title: i18n.tr('Add Task')
-        ActionBar {
-            anchors.right: parent.right
-            anchors.verticalCenter: parent.verticalCenter
+        trailingActionBar {
             actions: [
             Action {
                 iconName: "ok"
@@ -64,7 +62,7 @@ Page {
         anchors.topMargin: taskInput.height
         width: parent.width / 1.5
         height: width
-        source: "../../assets/logo.png"
+        source: "../../assets/logo.svg"
     }
 
     Component {

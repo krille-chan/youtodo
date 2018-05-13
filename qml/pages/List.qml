@@ -39,9 +39,7 @@ Page {
     header: PageHeader {
         id: header
         title: i18n.tr('YouTodo')
-        ActionBar {
-            anchors.verticalCenter: parent.verticalCenter
-            anchors.right: header.right
+        trailingActionBar {
             actions: [
             Action {
                 text: i18n.tr("Info")
