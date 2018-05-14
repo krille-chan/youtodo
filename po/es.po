@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: youtodo.christianpauly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-11 14:54+0000\n"
+"PO-Revision-Date: 2018-05-13 13:27+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
+msgid "YouTodo"
+msgstr "YouTodo"
+
+#: ../qml/pages/List.qml:47 ../qml/pages/Info.qml:9
+msgid "Info"
+msgstr "Información"
+
+#: ../qml/pages/List.qml:54
+msgid "Clear"
+msgstr "Limpiar"
+
+#: ../qml/pages/List.qml:66
+msgid "Add task"
+msgstr "Añadir tarea"
+
+#: ../qml/pages/List.qml:93
+msgid "Swipe from the bottom to enter some tasks ..."
+msgstr ""
+"Deslizar el dedo desde abajo para "
+"introducir algunas tareas ..."
+
+#: ../qml/pages/Info.qml:15
+msgid "YouTodo by Christian Pauly"
+msgstr "YouTodo por Christian Pauly"
+
+#: ../qml/pages/Info.qml:20
+msgid "Email: christian-pauly@posteo.de"
+msgstr "correo: christian-pauly@posteo.de"
+
+#: ../qml/pages/AddTask.qml:13
+msgid "Add Task"
+msgstr "Añadir tarea"
+
+#: ../qml/pages/AddTask.qml:53
+msgid "What to do?"
+msgstr "¿Qué hacer?"
+
+#: ../qml/pages/AddTask.qml:74
+msgid "Task already exists!"
+msgstr "¡La tarea ya existe!" 
