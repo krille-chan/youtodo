@@ -39,7 +39,7 @@ msgstr ""
 "Deslizar el dedo desde abajo para "
 "introducir algunas tareas ..."
 
-#: ../qml/pages/Info.qml:15
+#: ../qml/pages/Info.qml:40
 msgid "YouTodo by Christian Pauly"
 msgstr "YouTodo por Christian Pauly"
 
@@ -57,4 +57,4 @@ msgstr "¿Qué hacer?"
 
 #: ../qml/pages/AddTask.qml:74
 msgid "Task already exists!"
-msgstr "¡La tarea ya existe!" 
+msgstr "¡La tarea ya existe!"

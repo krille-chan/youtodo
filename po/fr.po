@@ -37,7 +37,7 @@ msgstr "Ajouter une tâche"
 msgid "Swipe from the bottom to enter some tasks ..."
 msgstr "Faites glisser votre doigt à partir du bord inférieur pour saisir une tâche..."
 
-#: ../qml/pages/Info.qml:15
+#: ../qml/pages/Info.qml:40
 msgid "YouTodo by Christian Pauly"
 msgstr "YouTodo par Christian Pauly"
 
