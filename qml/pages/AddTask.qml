@@ -64,7 +64,7 @@ Page {
         anchors.topMargin: taskInput.height
         width: parent.width / 1.5
         height: width
-        source: "../../assets/logo.svg"
+        source: "../../assets/addTask.svg"
     }
 
     Component {
