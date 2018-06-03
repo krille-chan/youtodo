@@ -52,7 +52,6 @@ Page {
         id: taskInput
         placeholderText: i18n.tr("What to do?")
         width: parent.width - this.height
-        maximumLength: 35
         anchors.top: header.bottom
         anchors.topMargin: this.height
         anchors.horizontalCenter: header.horizontalCenter
