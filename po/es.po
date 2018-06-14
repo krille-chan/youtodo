@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: youtodo.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-11 14:54+0000\n"
-"PO-Revision-Date: 2018-05-13 13:27+0000\n"
+"POT-Creation-Date: 2018-06-03 10:01+0000\n"
+"PO-Revision-Date: 2018-06-14 18:00+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
@@ -17,37 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
-msgid "YouTodo"
-msgstr "YouTodo"
-
-#: ../qml/pages/List.qml:47 ../qml/pages/Info.qml:9
-msgid "Info"
-msgstr "Información"
-
-#: ../qml/pages/List.qml:54
-msgid "Clear"
-msgstr "Limpiar"
-
-#: ../qml/pages/List.qml:66
-msgid "Add task"
-msgstr "Añadir tarea"
-
-#: ../qml/pages/List.qml:93
-msgid "Swipe from the bottom to enter some tasks ..."
-msgstr ""
-"Deslizar el dedo desde abajo para "
-"introducir algunas tareas ..."
-
-#: ../qml/pages/Info.qml:40
-msgid "YouTodo by Christian Pauly"
-msgstr "YouTodo por Christian Pauly"
-
-#: ../qml/pages/Info.qml:20
-msgid "Email: christian-pauly@posteo.de"
-msgstr "correo: christian-pauly@posteo.de"
-
-#: ../qml/pages/AddTask.qml:13
+#: ../qml/pages/AddTask.qml:40
 msgid "Add Task"
 msgstr "Añadir tarea"
 
@@ -58,3 +28,35 @@ msgstr "¿Qué hacer?"
 #: ../qml/pages/AddTask.qml:74
 msgid "Task already exists!"
 msgstr "¡La tarea ya existe!"
+
+#: ../qml/pages/Info.qml:10 ../qml/pages/List.qml:45
+msgid "Info"
+msgstr "Información"
+
+#: ../qml/pages/Info.qml:31
+msgid "Buy me a coffee"
+msgstr "Invíteme a un café"
+
+#: ../qml/pages/Info.qml:40
+msgid "YouTodo by Christian Pauly"
+msgstr "YouTodo por Christian Pauly"
+
+#: ../qml/pages/Info.qml:40
+msgid "Email: "
+msgstr "Correo: "
+
+#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
+msgid "YouTodo"
+msgstr "YouTodo"
+
+#: ../qml/pages/List.qml:52
+msgid "Clear"
+msgstr "Despejar"
+
+#: ../qml/pages/List.qml:64
+msgid "Add task"
+msgstr "Añadir tarea"
+
+#: ../qml/pages/List.qml:90
+msgid "Swipe from the bottom to enter some tasks ..."
+msgstr "Arrastrar desde abajo para añadir tareas ..." 
