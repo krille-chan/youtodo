@@ -1,10 +1,37 @@
 import QtQuick 2.4
 import QtQuick.LocalStorage 2.0 as Database
-import "../actions/TaskModelActions.js" as TaskModelActions
 import "../actions/StorageActions.js" as StorageActions
 
 ListModel {
     id: model
+
+    function init() {
+        transaction ( 'CREATE TABLE IF NOT EXISTS Tasks(description TEXT, done BOOL)' )
+        transaction ( 'SELECT * FROM Tasks', updateList )
+    }
+
+
+    function updateList ( rs ) {
+        model.clear()
+        for (var i = 0; i < rs.rows.length; i++) {
+            var done = false
+            if ( rs.rows.item(i).done ) done = true
+            model.append ( {
+                "description": rs.rows.item(i).description,
+                "done": done
+            } )
+        }
+    }
+
+
+    function getIdFromDescription ( description ) {
+        for (var i = 0; i < model.count; i++) {
+            if ( model.get(i).description === description ) {
+                return i
+            }
+        }
+        return -1
+    }
 
     function add ( description ) {
         StorageActions.transaction('INSERT INTO Tasks VALUES("' + description + '", 0)')
@@ -13,7 +40,7 @@ ListModel {
 
 
     function toggle ( description ) {
-        var id = TaskModelActions.getIdFromDescription ( description )
+        var id = getIdFromDescription ( description )
         var newDone = !(model.get( id ).done)
         StorageActions.transaction ( 'UPDATE Tasks SET done = ' + newDone + ' WHERE description = "' + description + '"' )
         model.set ( id, { "done": newDone })
@@ -32,7 +59,7 @@ ListModel {
 
 
     function cancel ( description ) {
-        var id = TaskModelActions.getIdFromDescription ( description )
+        var id = getIdFromDescription ( description )
         if ( id === -1 ) return
         StorageActions.transaction ( 'DELETE FROM Tasks WHERE description = "' + description + '"' )
         model.remove ( id )
@@ -40,8 +67,8 @@ ListModel {
 
 
     function exists ( description ) {
-        return TaskModelActions.getIdFromDescription ( description ) !== -1
+        return getIdFromDescription ( description ) !== -1
     }
 
-    Component.onCompleted: TaskModelActions.init ()
+    Component.onCompleted: init ()
 }

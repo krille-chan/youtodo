@@ -15,8 +15,6 @@ function add () {
         return
     }
 
-    console.log("check:", taskModel.exists ( newDescription ))
-
     taskModel.add ( newDescription )
 
     // Go back to the ListPage
