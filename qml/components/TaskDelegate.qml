@@ -9,7 +9,7 @@ ListItem {
     property var _description: description
     property var _done: done
 
-    onClicked: TaskActions.mark ()
+    onClicked: TaskActions.toggle ()
 
     ListItemLayout {
         id: layout

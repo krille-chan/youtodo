@@ -1,7 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
-import QtQuick.LocalStorage 2.0
 import Ubuntu.Components.Popups 1.3
 import "../actions/AddTaskActions.js" as AddTaskActions
 
@@ -9,6 +8,7 @@ Page {
     id: addTaskPage
     anchors.fill: parent
 
+    // ============================== HEADER ===================================
     header: PageHeader {
         id: header
         title: i18n.tr('Add Task')
@@ -21,6 +21,8 @@ Page {
             ]
         }
     }
+
+    // ============================== CONTENT ==================================
 
     TextField {
         id: taskInput
@@ -41,6 +43,7 @@ Page {
         source: "../../assets/addTask.svg"
     }
 
+    // ======================== TASK EXISTS DIALOG =============================
     Component {
         id: dialog
         Dialog {

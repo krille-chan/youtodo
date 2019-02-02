@@ -2,16 +2,14 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
 import QtQuick.LocalStorage 2.0
+import "../components"
+import "../models"
 import "../actions/MainActions.js" as MainActions
 import "../actions/ListActions.js" as ListActions
-import "../components"
 
 Page {
     id: listPage
     anchors.fill: parent
-
-    signal updated ()
-    onUpdated: ListActions.update ()
 
 
     // ============================== HEADER ===================================
@@ -28,12 +26,12 @@ Page {
             Action {
                 text: i18n.tr("Clear")
                 iconName: "delete"
-                onTriggered: ListActions.cleanUp ()
+                onTriggered: taskModel.cleanUp ()
             },
             Action {
                 text: i18n.tr("Add task")
                 iconName: "add"
-                onTriggered: MainActions.pushPage("AddTask")
+                onTriggered: bottomEdge.commit ()
             }
             ]
         }
@@ -48,14 +46,15 @@ Page {
         height: parent.height - header.height
         anchors.top: header.bottom
         delegate: TaskDelegate {}
-        model: ListModel { id: model }
+        model: TaskModel {
+            id: taskModel
+        }
         move: Transition {
             SmoothedAnimation { property: "y"; duration: 300 }
         }
         displaced: Transition {
             SmoothedAnimation { property: "y"; duration: 300 }
         }
-        Component.onCompleted: ListActions.update ()
 
         Label {
             text: i18n.tr("Swipe up from the bottom to enter some tasks...")
@@ -66,7 +65,7 @@ Page {
             horizontalAlignment: Text.AlignHCenter
             elide: Text.ElideMiddle
             wrapMode: Text.Wrap
-            visible: model.count === 0
+            visible: taskModel.count === 0
         }
     }
 

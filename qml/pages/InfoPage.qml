@@ -5,11 +5,13 @@ import Ubuntu.Components 1.3
 Page {
     anchors.fill: parent
 
+    // ============================== HEADER ===================================
     header: PageHeader {
         id: header
         title: i18n.tr('Info')
     }
 
+    // ============================== CONTENT ==================================
     Image {
         id: coffeeImage
         anchors.top: header.bottom

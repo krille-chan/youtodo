@@ -1,36 +1,25 @@
 // File: AddTaskActions.js
 // Description: Actions for AddTaskPage.qml
-.import QtQuick.LocalStorage 2.0 as Database
-Qt.include("StorageActions.js")
+.import Ubuntu.Components.Popups 1.3 as Popup
 
 function add () {
+    var newDescription = taskInput.displayText
 
     // Only perform this action when there is something in the taskInput
-    if ( taskInput.displayText == "" ) {
+    if ( newDescription == "" ) {
         return
     }
-    
-    db.transaction(
-        function(tx) {
 
-            // If the task already exists, show an error dialog
-            var rs = tx.executeSql('SELECT * FROM Tasks WHERE description = "' + taskInput.displayText + '"')
-            if ( rs.rows.length > 0 ) {
-                PopupUtils.open(dialog)
-                return
-            }
-            tx.executeSql('INSERT INTO Tasks VALUES("' + taskInput.displayText + '", 0)')
-            taskInput.text = " "
+    if ( taskModel.exists ( newDescription ) ) {
+        Popup.PopupUtils.open ( dialog )
+        return
+    }
 
-            // Go back to the listPage and trigger the update signal
-            if ( mainStack.depth === 1 ) {
-                listPage.updated()
-                bottomEdge.collapse()
-            }
-            else {
-                mainStack.pop()
-                mainStack.currentPage.updated()
-            }
-        }
-    )
+    console.log("check:", taskModel.exists ( newDescription ))
+
+    taskModel.add ( newDescription )
+
+    // Go back to the ListPage
+    taskInput.text = ""
+    bottomEdge.collapse ()
 }
