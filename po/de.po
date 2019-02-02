@@ -37,17 +37,25 @@ msgstr "Aufgabe hinzufügen"
 msgid "Swipe from the bottom to enter some tasks ..."
 msgstr "Nach oben wischen, um eine Aufgabe hinzuzufügen ..."
 
-#: ../qml/pages/Info.qml:31
-msgid "Buy me a coffee"
+#: ../qml/pages/Info.qml:11
+msgid "Info about YouTodo %1"
+msgstr "Infos über YouTodo %1"
+
+#: ../qml/pages/Info.qml:33
+msgid "Donate me a coffee"
 msgstr "Gib mir einen Kaffee aus"
 
 #: ../qml/pages/Info.qml:40
-msgid "YouTodo by Christian Pauly"
-msgstr "YouTodo von Christian Pauly"
+msgid "Contributors"
+msgstr "Mitwirkende"
 
-#: ../qml/pages/Info.qml:40
-msgid "Email: "
-msgstr ""
+#: ../qml/pages/Info.qml:46
+msgid "Source code"
+msgstr "Quellcode"
+
+#: ../qml/pages/Info.qml:52
+msgid "License"
+msgstr "Lizenz"
 
 #: ../qml/pages/AddTask.qml:13
 msgid "Add Task"

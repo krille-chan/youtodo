@@ -39,13 +39,25 @@ msgstr ""
 "Deslizar el dedo desde abajo para "
 "introducir algunas tareas ..."
 
-#: ../qml/pages/Info.qml:40
-msgid "YouTodo by Christian Pauly"
-msgstr "YouTodo por Christian Pauly"
+#: ../qml/pages/Info.qml:11
+msgid "Info about YouTodo %1"
+msgstr "Información sobre YouTodo %1"
 
-#: ../qml/pages/Info.qml:20
-msgid "Email: christian-pauly@posteo.de"
-msgstr "correo: christian-pauly@posteo.de"
+#: ../qml/pages/Info.qml:33
+msgid "Donate me a coffee"
+msgstr "Donarme un café"
+
+#: ../qml/pages/Info.qml:40
+msgid "Contributors"
+msgstr "Colaboradores"
+
+#: ../qml/pages/Info.qml:46
+msgid "Source code"
+msgstr "Código fuente"
+
+#: ../qml/pages/Info.qml:52
+msgid "License"
+msgstr "Licencia"
 
 #: ../qml/pages/AddTask.qml:13
 msgid "Add Task"

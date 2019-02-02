@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the youtodo.christianpauly package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: youtodo.christianpauly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-03 10:01+0000\n"
+"POT-Creation-Date: 2019-02-02 08:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,46 +17,55 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/pages/AddTask.qml:40
+#: ../qml/build/tmp/pages/AddTask.qml:40 ../qml/pages/AddTask.qml:13
 msgid "Add Task"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:53
+#: ../qml/build/tmp/pages/AddTask.qml:53 ../qml/pages/AddTask.qml:27
 msgid "What to do?"
 msgstr ""
 
-#: ../qml/pages/AddTask.qml:74
+#: ../qml/build/tmp/pages/AddTask.qml:74 ../qml/pages/AddTask.qml:48
 msgid "Task already exists!"
 msgstr ""
 
-#: ../qml/pages/Info.qml:10 ../qml/pages/List.qml:45
-msgid "Info"
+#: ../qml/build/tmp/pages/Info.qml:11 ../qml/pages/Info.qml:11
+msgid "Info about YouTodo %1"
 msgstr ""
 
-#: ../qml/pages/Info.qml:31
-msgid "Buy me a coffee"
+#: ../qml/build/tmp/pages/Info.qml:33 ../qml/pages/Info.qml:38
+msgid "Donate me a coffee"
 msgstr ""
 
-#: ../qml/pages/Info.qml:40
-msgid "YouTodo by Christian Pauly"
+#: ../qml/build/tmp/pages/Info.qml:40 ../qml/pages/Info.qml:45
+msgid "Contributors"
 msgstr ""
 
-#: ../qml/pages/Info.qml:40
-msgid "Email: "
+#: ../qml/build/tmp/pages/Info.qml:46 ../qml/pages/Info.qml:51
+msgid "Source code"
 msgstr ""
 
-#: ../qml/pages/List.qml:41 youtodo.desktop.in.h:1
+#: ../qml/build/tmp/pages/Info.qml:52 ../qml/pages/Info.qml:57
+msgid "License"
+msgstr ""
+
+#: ../qml/build/tmp/pages/List.qml:41 ../qml/pages/List.qml:15
+#: youtodo.desktop.in.h:1
 msgid "YouTodo"
 msgstr ""
 
-#: ../qml/pages/List.qml:52
+#: ../qml/build/tmp/pages/List.qml:51 ../qml/pages/List.qml:20
+msgid "Info"
+msgstr ""
+
+#: ../qml/build/tmp/pages/List.qml:58 ../qml/pages/List.qml:27
 msgid "Clear"
 msgstr ""
 
-#: ../qml/pages/List.qml:64
+#: ../qml/build/tmp/pages/List.qml:70 ../qml/pages/List.qml:32
 msgid "Add task"
 msgstr ""
 
-#: ../qml/pages/List.qml:90
+#: ../qml/build/tmp/pages/List.qml:96 ../qml/pages/List.qml:55
 msgid "Swipe from the bottom to enter some tasks ..."
 msgstr ""
