@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
-import QtQuick.LocalStorage 2.0
+import "actions/MainActions.js" as MainActions
 
 MainView {
     id: root
@@ -12,12 +12,9 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
 
-    property var db: LocalStorage.openDatabaseSync("YouTodoTasks", "1.0", "The Example QML SQL!", 1000000)
-
     PageStack {
         id: mainStack
+        Component.onCompleted: MainActions.pushPage ( "List" )
     }
-
-    Component.onCompleted: mainStack.push(Qt.resolvedUrl("./pages/List.qml"))
 
 }
