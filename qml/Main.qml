@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
-import "actions/NavActions.js" as NavActions
+import "scripts/NavActions.js" as NavActions
 
 MainView {
     id: root

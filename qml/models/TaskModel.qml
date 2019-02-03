@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import QtQuick.LocalStorage 2.0 as Database
-import "../actions/StorageActions.js" as StorageActions
+import "../scripts/StorageActions.js" as StorageActions
 
 ListModel {
     id: model

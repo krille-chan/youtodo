@@ -4,7 +4,7 @@ import Ubuntu.Components 1.3
 import QtQuick.LocalStorage 2.0
 import "../components"
 import "../models"
-import "../actions/NavActions.js" as NavActions
+import "../scripts/NavActions.js" as NavActions
 
 Page {
     id: listPage
