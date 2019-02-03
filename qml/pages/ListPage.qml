@@ -4,8 +4,7 @@ import Ubuntu.Components 1.3
 import QtQuick.LocalStorage 2.0
 import "../components"
 import "../models"
-import "../actions/MainActions.js" as MainActions
-import "../actions/ListActions.js" as ListActions
+import "../actions/NavActions.js" as NavActions
 
 Page {
     id: listPage
@@ -21,7 +20,7 @@ Page {
             Action {
                 text: i18n.tr("Info")
                 iconName: "info"
-                onTriggered: MainActions.pushPage("Info")
+                onTriggered: NavActions.pushPage("Info")
             },
             Action {
                 text: i18n.tr("Clear")

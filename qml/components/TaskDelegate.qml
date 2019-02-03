@@ -1,7 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
-import "../actions/TaskActions.js" as TaskActions
 
 ListItem {
     id: task
@@ -9,7 +8,7 @@ ListItem {
     property var _description: description
     property var _done: done
 
-    onClicked: TaskActions.toggle ()
+    onClicked: taskModel.toggle ( task._description )
 
     ListItemLayout {
         id: layout
@@ -26,7 +25,7 @@ ListItem {
         actions: [
         Action {
             iconName: "delete"
-            onTriggered: TaskActions.remove ()
+            onTriggered: taskModel.cancel ( task._description )
         }
         ]
     }
